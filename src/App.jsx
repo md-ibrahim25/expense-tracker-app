@@ -52,8 +52,16 @@ function App() {
         />
       </div>
       <div className="flex flex-col items-start justify-center sm:flex-row">
-        <ExpenseView label={"Expense"} color={"red"} transactions={expenseTransactions}/>
-        <ExpenseView label={"Income"} color={"green"} transactions={incomeTransactions}/>
+        <ExpenseView
+          label={"Expense"}
+          color={"red"}
+          transactions={expenseTransactions}
+        />
+        <ExpenseView
+          label={"Income"}
+          color={"green"}
+          transactions={incomeTransactions}
+        />
       </div>
     </div>
   );

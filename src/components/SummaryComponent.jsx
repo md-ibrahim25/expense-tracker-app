@@ -2,9 +2,7 @@ import { Chart } from "chart.js";
 import React from "react";
 import { useSelector } from "react-redux";
 import Chartcompo from "./Chartcompo";
-function SummaryComponent({balance, totalIncome, totalExpense}) {
-
-
+function SummaryComponent({ balance, totalIncome, totalExpense }) {
   return (
     <div className="flex w-full flex-col sm:flex-row">
       <div className="mt-14 w-full rounded-lg bg-white p-6 shadow-lg sm:w-[50%] md:w-[50%]">
@@ -32,7 +30,7 @@ function SummaryComponent({balance, totalIncome, totalExpense}) {
           </div>
         </div>
       </div>
-      <Chartcompo balance={balance} expense={totalExpense}/>
+      <Chartcompo balance={balance} expense={totalExpense} />
     </div>
   );
 }
