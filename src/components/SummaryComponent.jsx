@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 import Chartcompo from "./Chartcompo";
 function SummaryComponent({ balance, totalIncome, totalExpense }) {
   return (
-    <div className="flex w-full flex-col sm:flex-row">
-      <div className="mt-14 w-full rounded-lg bg-white p-6 shadow-lg sm:w-[50%] md:w-[50%]">
+    <div className="flex w-full flex-col sm:flex-row  pb-5">
+      <div className="mt-14 w-full rounded-lg bg-white p-6 sm:w-[50%] md:w-[50%]">
         <div className="flex w-full justify-center">
           <div className="flex flex-col items-center">
             <h4 className="mb-4 text-lg font-bold text-blue-400 sm:text-2xl">

@@ -44,7 +44,7 @@ function App() {
     <div className="relative h-screen">
       <Navbar onOpen={onOpen} />
       {showPopup && <ModalPopup onClose={onClose} />}
-      <div className="flex w-full flex-col sm:flex-row">
+      <div className="flex w-full flex-col sm:flex-row shadow-lg">
         <SummaryComponent
           balance={balance}
           totalExpense={totalExpense}
